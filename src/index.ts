@@ -6,7 +6,7 @@ const POMODORO_POSTPONE = 3  // minutes
 const seconds = (sec: number) => sec * 1000;
 const minutes = (min: number) => seconds(min * 60);
 
-export const script = `osascript -e '
+const script = `osascript -e '
     display dialog "Take a 5min break!" with title "Pomodoro timer!" buttons {"Postpone", "Ok"} default button "Ok" cancel button "Postpone" with icon caution
 '`;
 
