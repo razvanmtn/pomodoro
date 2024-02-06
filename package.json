@@ -1,0 +1,19 @@
+{
+  "name": "pomodoro",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Razvan Muntian <razvanmuntian@gmail.com> (https://razvanmuntian.com/)",
+  "main": "dist/index.js",
+  "bin": {
+    "pomodoro": "dist/index.js"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
