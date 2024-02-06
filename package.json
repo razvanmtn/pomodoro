@@ -1,8 +1,17 @@
 {
-  "name": "pomodoro",
+  "name": "@razvanmtn/pomodoro",
+  "description": "Simple Pomodoro typescript cli tool",
   "version": "1.0.0",
   "license": "MIT",
   "author": "Razvan Muntian <razvanmuntian@gmail.com> (https://razvanmuntian.com/)",
+  "repository": "https://github.com/razvanmtn/pomodoro",
+  "homepage": "https://github.com/razvanmtn/pomodoro#readme",
+  "keywords": [
+    "dotfiles",
+    "pomodoro",
+    "typescript",
+    "cli"
+  ],
   "main": "dist/index.js",
   "bin": {
     "pomodoro": "dist/index.js"
