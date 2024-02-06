@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { execSync } from "child_process";
 
 const POMODORO_INTERVAL = 30 // minutes
